@@ -1,13 +1,16 @@
 # AI-Powered Virtual Outfit Try-On
 
+[Demo](https://drive.google.com/file/d/12WYQsrZuvHHgJNhL23ISnLeXpnLddCCN/view)
+[Presentation](AI-Powered-Virtual-Outfit-Try-On.pdf)
+
 As part of our Human-AI interaction class, we were tasked to design an AI-enabled interactive system, for a problem of our choice, focusing on the importance of the interaction between AI and people in technology. As such, a proof-of-concept prototype demonstrating the core interaction was requested.
  
 
-According to a 2019 study [1], website quality significantly impacts user trust and perceived utility, indicating that more advanced and informative interfaces can reduce the risks associated with online shopping. Additionally, user experience is the most influential factor in determining whether a user will continue using the system.
+According to a 2011 study, website quality significantly impacts user trust and perceived utility, indicating that more advanced and informative interfaces can reduce the risks associated with online shopping. Additionally, user experience is the most influential factor in determining whether a user will continue using the system.
 
 This project, as a prototype, aims to tackle both of these issues through a user friendly, intuitive interface, offering automated inference of their fashion style whilst providing diverse outfit selection.
 
-![System Interface](/image/system_interface.png "System Interface")
+![System Interface](/images/system_interface.png)
 
 ## Requirements
 
@@ -50,7 +53,7 @@ Up to two additional inspiration images may be uploaded to improve personalizati
 
 The web application is composed of several different components, detailed in this section. The following diagram describes the current system architecture:
 
-![System Architecture](/image/system_architecture.png "System Architecture")
+![System Architecture](/images/system_architecture.png)
 
 #### Frontend
 
@@ -86,7 +89,7 @@ The generated side preview is unused due to limitations within CatVTON. In a pro
 
 ## User Study
 
-A user study was conducted to evaluate the application through the means specified in [2] and [3]. This study surveyed 18 respondents (17 on one item) across eleven measures spanning transparency, relevance, fairness, privacy, feedback, and overall satisfaction. Respondents answered each item on a 1–5 rating scale or a yes/no/maybe choice. Ratings were mapped linearly from 1=0% to 5=100%, and choices were mapped no/maybe/yes to 0/50/100%. Each percentage is the average across all respondents for that item.
+A user study was conducted to evaluate the application through the means specified in [1], [2] and [3]. This study surveyed 18 respondents (17 on one item) across eleven measures spanning transparency, relevance, fairness, privacy, feedback, and overall satisfaction. Respondents answered each item on a 1–5 rating scale or a yes/no/maybe choice. Ratings were mapped linearly from 1=0% to 5=100%, and choices were mapped no/maybe/yes to 0/50/100%. Each percentage is the average across all respondents for that item.
 
 | Category | Measure | Score |
 |---|---|---|
